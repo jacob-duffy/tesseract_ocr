@@ -6,7 +6,7 @@ repos:
     exclude: ^(\.vscode/|venv/|\.idea/)
     name: isort (python)
 - repo: https://github.com/psf/black
-  rev: 5.10.1
+  rev: 22.3.0
   hooks:
   - id: black
     exclude: ^(\.vscode/|venv/|\.idea/)
